@@ -5,7 +5,7 @@ Here's a **complete `README.md`** for your **Emotion Recognition from Speech** p
 
 ---
 
-```markdown
+
 # 🎙️ Emotion Recognition from Speech using Deep Learning
 
 This project detects human emotions from raw audio using deep learning and speech signal processing techniques. It extracts MFCC (Mel-Frequency Cepstral Coefficients) features from `.wav` files and trains a CNN-LSTM hybrid model for classification.
@@ -42,14 +42,14 @@ You can process all `Actor_01` to `Actor_24` folders.
 
 ### ✅ Clone this repository
 
-```bash
+```
 git clone https://github.com/your-username/emotion-recognition-speech.git
 cd emotion-recognition-speech
 ````
 
 ### ✅ Create a virtual environment and install dependencies
 
-```bash
+```
 python -m venv venv
 venv\Scripts\activate   # On Windows
 pip install -r requirements.txt
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ### `requirements.txt`
 
-```txt
+```
 librosa
 numpy
 pandas
@@ -73,7 +73,7 @@ resampy
 
 ### 1. Extract MFCCs and Prepare Data
 
-```python
+```
 X, y = load_data()
 ```
 
