@@ -79,19 +79,19 @@ X, y = load_data()
 
 ### 2. Train the Model
 
-```python
+```
 model.fit(X_train, y_train, epochs=40, batch_size=32, validation_data=(X_test, y_test))
 ```
 
 ### 3. Evaluate Accuracy
 
-```python
+```
 model.evaluate(X_test, y_test)
 ```
 
 ### 4. Predict Emotion on New Audio
 
-```python
+```
 predict_emotion("path_to_new_audio.wav")
 ```
 
@@ -120,10 +120,10 @@ Achieves \~70–80% test accuracy on 8 emotion classes using RAVDESS.
 ```
 emotion-recognition-speech/
 │
-├── model_training.ipynb        # Jupyter Notebook with training pipeline
+├── emotion_recognition_from_speech.ipynb        # Jupyter Notebook with training pipeline
 ├── requirements.txt
 ├── README.md
-└── data/
+└── Audio_Song_Actors_01-24/
     └── Actor_01/
     └── Actor_02/
         ...
@@ -151,13 +151,10 @@ Feel free to connect or raise issues for suggestions or questions!
 
 MIT License – free to use for personal and commercial projects with credit.
 
-```
-
 ---
 
 Let me know if you'd like me to:
 - Customize this README with your GitHub URL or name
 - Add instructions for Google Colab
 - Include results visualizations (e.g., confusion matrix or training curve)
-```
 
