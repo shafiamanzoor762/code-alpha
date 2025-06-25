@@ -40,13 +40,6 @@ You can process all `Actor_01` to `Actor_24` folders.
 
 ## 🛠️ Installation
 
-### ✅ Clone this repository
-
-```
-git clone https://github.com/your-username/emotion-recognition-speech.git
-cd emotion-recognition-speech
-````
-
 ### ✅ Create a virtual environment and install dependencies
 
 ```
