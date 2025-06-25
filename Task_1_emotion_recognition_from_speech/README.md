@@ -1,11 +1,3 @@
-# code-alpha
-## CodeAlpha - Exploring Machine Learning modules
-
-Here's a **complete `README.md`** for your **Emotion Recognition from Speech** project using MFCCs and a CNN + LSTM model. You can paste this directly into your GitHub repository.
-
----
-
-
 # 🎙️ Emotion Recognition from Speech using Deep Learning
 
 This project detects human emotions from raw audio using deep learning and speech signal processing techniques. It extracts MFCC (Mel-Frequency Cepstral Coefficients) features from `.wav` files and trains a CNN-LSTM hybrid model for classification.
@@ -143,11 +135,4 @@ Feel free to connect or raise issues for suggestions or questions!
 ## 📜 License
 
 MIT License – free to use for personal and commercial projects with credit.
-
----
-
-Let me know if you'd like me to:
-- Customize this README with your GitHub URL or name
-- Add instructions for Google Colab
-- Include results visualizations (e.g., confusion matrix or training curve)
 
